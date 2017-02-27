@@ -1,0 +1,4 @@
+obj/version.o: version.cpp version.h clientversion.h \
+ /home/andonov/Coins/chili-fork/test-Chili/src/obj/build.h
+version.cpp version.h clientversion.h :
+ /home/andonov/Coins/chili-fork/test-Chili/src/obj/build.h :

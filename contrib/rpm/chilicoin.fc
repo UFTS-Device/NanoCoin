@@ -1,0 +1,8 @@
+/usr/bin/nanocoin-cli		--	gen_context(system_u:object_r:nanocoin_exec_t,s0)
+/usr/sbin/nanocoind		--	gen_context(system_u:object_r:nanocoin_exec_t,s0)
+/usr/lib(64)?/nanocoin/nanocoind		--	gen_context(system_u:object_r:nanocoin_exec_t,s0)
+
+/etc/nanocoin(/.*)?		gen_context(system_u:object_r:nanocoin_conf_t,s0)
+/var/lib/nanocoin(/.*)?		gen_context(system_u:object_r:nanocoin_var_lib_t,s0)
+
+(/var)?/run/nanocoind(/.*)?   gen_context(system_u:object_r:nanocoin_var_run_t,s0)

@@ -1,0 +1,22 @@
+[Unit]
+Description=NanoCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=nanocoin
+Group=nanocoin
+
+Type=forking
+PIDFile=/var/lib/nanocoind/nanocoind.pid
+ExecStart=/usr/bin/nanocoind -daemon -pid=/var/lib/nanocoind/nanocoind.pid \
+-conf=/etc/nanocoin/nanocoin.conf -datadir=/var/lib/nanocoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

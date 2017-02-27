@@ -1,0 +1,6 @@
+usr/local/bin/nanocoin-qt usr/bin
+share/pixmaps/nanocoin32.xpm usr/share/pixmaps
+share/pixmaps/nanocoin16.xpm usr/share/pixmaps
+share/pixmaps/nanocoin128.png usr/share/pixmaps
+debian/nanocoin-qt.desktop usr/share/applications
+debian/nanocoin-qt.protocol usr/share/kde4/services/

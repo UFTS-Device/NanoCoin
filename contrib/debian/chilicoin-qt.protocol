@@ -1,0 +1,11 @@
+[Protocol]
+exec=nanocoin-qt '%u'
+protocol=nanocoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
