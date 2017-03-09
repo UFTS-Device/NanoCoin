@@ -23,8 +23,9 @@ packages:
 - "python"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/UFTS-Device/NanoCoin.git"
+- "url": "https://github.com/ufts-device/nanocoin.git"
   "dir": "nanocoin"
+  "commit": "nanocoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
