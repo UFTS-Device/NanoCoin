@@ -25,7 +25,7 @@ reference_datetime: "2016-01-01 00:00:00"
 remotes:
 - "url": "https://github.com/ufts-device/nanocoin.git" #repo url
   "dir": "nanocoin" #name of the folder to be created in the gitian inputs
-  "commit": "cb409ebc2d85e3ad0237496b866d97d06f544464" #commit hash
+  "commit": "HEAD" #commit hash
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
