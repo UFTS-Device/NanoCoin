@@ -223,7 +223,7 @@ RES_ICONS = \
   qt/res/icons/address-book.png \
   qt/res/icons/about.png \
   qt/res/icons/about_qt.png \
-  qt/res/icons/NanoCoin.ico \
+  qt/res/icons/nanocoin.ico \
   qt/res/icons/bitcoin.png \
   qt/res/icons/chevron.png \
   qt/res/icons/clock1.png \
