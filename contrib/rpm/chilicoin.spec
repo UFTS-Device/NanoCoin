@@ -244,7 +244,7 @@ done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/nanocoin.ico %{buildroot}%{_datadir}/pixmaps/nanocoin.ico
+install -D -p share/pixmaps/chilicoin.ico %{buildroot}%{_datadir}/pixmaps/chilicoin.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/nanocoin.svg
